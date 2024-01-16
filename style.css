@@ -229,7 +229,12 @@ main{
     align-items: center;
     justify-content: center;
 }
-
+/* .section__header{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    align-items: center;
+} */
 .row1{
     display: flex;
     grid-template-columns: 1fr 1fr;
@@ -245,7 +250,54 @@ main{
     grid-template-columns: 1fr 2fr;
     gap: 24px;
 }
-
+/* bonus sectionn */
+.service__grid {
+    margin-top: 4rem;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .service__card {
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    border-radius: 2px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  .service__card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service__card img {
+    max-width: 300px;
+    margin: auto;
+    border-radius: 2px;
+  }
+  
+  .service__card > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .service__card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color:black;
+  }
+  
+  .service__card p {
+    margin-bottom: 0.5rem;
+    color:blueviolet;
+  }
+  
+  .service__btn {
+    text-align: right;
+  }
 
 /* why choose us */
 .choice{
