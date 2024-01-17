@@ -27,7 +27,7 @@ header{
     margin: auto;
 }
 
-/* nav */
+/* <!-- navigation var sectionn --> */
 nav{
     display: flex;
     justify-content: space-between;
@@ -55,7 +55,7 @@ nav{
 }
 
 
-/* menu section */
+/* menu sectionn */
 
 .menubar{
     display: flex;
@@ -80,7 +80,7 @@ nav{
 }
 
 
-/* banner section */
+/* bannerr sectionn */
 
 .banner{
     position: relative;
@@ -138,7 +138,7 @@ nav{
     border-radius: 8px;
 }
 
-/* popular tour section */
+/* <!-- our popular tour sectionn --> */
 
 main{
     width: 80%;
@@ -175,7 +175,7 @@ main{
 .first-content ul{
     padding-left: 20px;
 }
-/* destination */
+/* destinationn sectionn */
 
 .gridd{
     width: 100%;
@@ -250,7 +250,9 @@ main{
     grid-template-columns: 1fr 2fr;
     gap: 24px;
 }
+
 /* bonus sectionn */
+
 .service__grid {
     margin-top: 4rem;
     display: grid;
@@ -299,7 +301,8 @@ main{
     text-align: right;
   }
 
-/* why choose us */
+/* why choose us sectionn*/
+
 .choice{
     display: flex;
     gap: 24px;
@@ -389,7 +392,7 @@ main{
     line-height: 26px;
 }
 
-
+/* <!-- newsletter sectionn --> */
 
 .newsletter-section{
     display: flex;
@@ -458,6 +461,7 @@ main{
     transform:  rotate(-55deg);;
 }
 
+/* footerr sectionn */
 
 footer{
     display: flex;
@@ -491,16 +495,11 @@ footer .copyright{
     color: #131318;
 }
 
-/* for small devices */
+/*  media query sectionn */
 
 @media screen and (max-width:600px) {
 
-    /* .newsletter-section{
-        flex-direction: column;
-    }
-    .newsletter-section .save {
-        padding:0px 5px 0px 5px;
-    } */
+   
     .menu{
         display: none;
     }
@@ -575,27 +574,7 @@ footer .copyright{
         flex-direction: column;
         flex-wrap: nowrap;
     }
-    /* .response{
-        width: 50%;
-    } */
-    /* .attached{
-        width: fit-content;
-    } */
-    /* .newsletter-section .save{
-    width: 80vw;
-}
-
-.newsletter-form{
-    width: 90vw;
-}
-
-.newsletter-form form input{
-    width: 100%;
-}
-
-.newsletter-container .save img{
-    width: 100%;
-} */
+   
     .newsletter-section {
         display: flex;
         align-items: flex-start;
@@ -628,9 +607,7 @@ footer .copyright{
     display: none;
 
 }
-/* .fa-bars:before, .fa-navicon:before{
-    content: none;
-} */
+
 .choose-us1a,.choose-us1b,.choose-us1c{
     width: 335px;
     margin-left: 30px;
